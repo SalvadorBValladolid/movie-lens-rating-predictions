@@ -9,19 +9,18 @@ The focus is on **time-aware feature engineering**, avoiding **data leakage**, a
 
 ## Repository Structure
 
-.
+```bash
 ├── notebooks/
 │ ├── 1_EDA.ipynb # Exploratory Data Analysis
 │ ├── 2_Feature_Engineering.ipynb
 │ ├── 3_Preprocessing.ipynb
 │ └── 4_Modeling.ipynb
 ├── data/ # Raw and processed datasets
-├── src/
-│ ├── data_type.py # Feature type definitions
-│ └── preprocessing.py # Custom preprocessing functions
+├── utils/
+│ ├── utils.py
 ├── models/ # Saved LightGBM models
 ├── README.md
-└── requirements.txt
+```
 
 
 ---
